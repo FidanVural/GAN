@@ -9,7 +9,7 @@ First of all, let's start with the installation process.
    cd GAN 
    sudo pip3 install -r requirements.txt
 ```
-
+ 
 Before we start, if you want to download the datasets, you have to change "download" parameter to True in the codes. Let's look at this line: **dataset = datasets.MNIST(root="dataset/", train=True, transform=transforms, download=True)**. After the first download, you can change the "dowload" to False. 
 
 ## GAN (Generative Adversarial Networks)  
