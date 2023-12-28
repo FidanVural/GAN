@@ -10,7 +10,8 @@ First of all, let's start with the installation process.
    sudo pip3 install -r requirements.txt
 ```
 
-Before we start, if you want to use the datasets, you have to change sjshd parameter to True. 
+Before we start, if you want to download the datasets, you have to change "download" parameter to True in the codes. Let's look at this line: **dataset = datasets.MNIST(root="dataset/", train=True, transform=transforms, download=True)**. After the first download, you can change the "dowload" to False. 
+
 ## GAN (Generative Adversarial Networks)  
 
 GANs have two structures: the Generator and the Discriminator. While generator tries to create a new image (a fake image) that looks like the real one from random noise, discriminator tries to distinguish between a real image and a fake image. These two structures always try to fool each other.
