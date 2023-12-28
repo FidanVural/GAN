@@ -1,5 +1,5 @@
 # GAN (Generative Adversarial Networks)
-In this repo, you'll be finding codes about different kind of GANs and some results that obtained from the experiments. 
+In this repo, you will be finding codes about different kind of GANs and some results that obtained from the experiments. 
 First of all, let's start with the installation process.
 
 ## Installation 
