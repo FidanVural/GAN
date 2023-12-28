@@ -49,9 +49,8 @@ Target Images             |  Fake Images
 ![gan_real_opt](https://github.com/FidanVural/GAN/assets/56233156/ebb9816a-e815-4ba8-a419-7263d69e5fbd) | ![gan_fake_opt](https://github.com/FidanVural/GAN/assets/56233156/148ca590-4795-494b-93ec-a925deee9989)
 
 
-
 ## DCGAN (Deep Convolutional Generative Adversarial Networks)
-DCGAN is so similar to the GAN. Main difference between the GAN and the DCGAN is the use of convolutional blocks. You can explore [dcgan.py](https://github.com/FidanVural/GAN/blob/main/dcgan.py) and [dcgan_training.py](https://github.com/FidanVural/GAN/blob/main/dcgan_training.py) scritps. Due to the utilization of convolutional layers, training process is slower than the GAN but results surpass it. You can take a look at the results below (after 20 epochs of training). 
+DCGAN is so similar to the GAN. Main difference between the GAN and the DCGAN is the use of convolutional blocks. You can explore [dcgan.py](https://github.com/FidanVural/GAN/blob/master/dcgan.py) and [dcgan_training.py](https://github.com/FidanVural/GAN/blob/master/dcgan_training.py) scritps. Due to the utilization of convolutional layers, training process is slower than the GAN but results surpass it. You can take a look at the results below (after 20 epochs of training). 
 
 Target Images             |  Fake Images
 :------------------------:|:-------------------------:
@@ -70,7 +69,7 @@ Binary Cross Entropy (BCE) loss can cause some problems when we train our models
   <img width="580" height="200" src="https://github.com/FidanVural/GAN/assets/56233156/b5716dd4-f94c-4f48-9433-171fabe0f927">
 </p>  
 
-We require a limit for predictions of the discriminator because the discriminator outputs can be get any value. Therefore, to apply WGAN, we have 2 different approach. One of them is WGAN with weight clipping and the other one is WGAN with gradient penalty. In the WGAN paper, author says like weight clipping is a terrible way to do this. But, you can find WGAN with weight clipping codes in [wgan.py](https://github.com/FidanVural/GAN/blob/main/wgan.py) and [wgan_training.py](https://github.com/FidanVural/GAN/blob/main/wgan_training.py). Also, you can find WGAN with gradient penalty codes in [wgan_pg.py](https://github.com/FidanVural/GAN/blob/main/wgan_gp.py) and [wgan_pg_training.py](https://github.com/FidanVural/GAN/blob/main/wgan_pg_training.py). You can take a look [my whiteboard explanation pdf](https://drive.google.com/drive/folders/1EIEWs1vZnrzZOywFz4OM91QTLSuoySqh?usp=sharing) for more detail.
+We require a limit for predictions of the discriminator because the discriminator outputs can be get any value. Therefore, to apply WGAN, we have 2 different approach. One of them is WGAN with weight clipping and the other one is WGAN with gradient penalty. In the WGAN paper, author says like weight clipping is a terrible way to do this. But, you can find WGAN with weight clipping codes in [wgan.py](https://github.com/FidanVural/GAN/blob/master/wgan.py) and [wgan_training.py](https://github.com/FidanVural/GAN/blob/master/wgan_training.py). Also, you can find WGAN with gradient penalty codes in [wgan_pg.py](https://github.com/FidanVural/GAN/blob/master/wgan_gp.py) and [wgan_pg_training.py](https://github.com/FidanVural/GAN/blob/master/wgan_pg_training.py). You can take a look [my whiteboard explanation pdf](https://drive.google.com/drive/folders/1EIEWs1vZnrzZOywFz4OM91QTLSuoySqh?usp=sharing) for more detail.
 
 You can see the training results below after 15 epochs.
 Target Images             |  Fake Images
