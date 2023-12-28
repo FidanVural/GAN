@@ -78,7 +78,7 @@ Target Images             |  Fake Images
 
 
 ## CGAN (Conditional GAN)
-So far, we looked at the unconditional GANs. There is a methapor to explain the difference between conditional and unconditinal GAN.We can regard unconditional GANs as a gumball machine because you get outputs from a random class. On the other hand, we can deem conditional GAN as a vending machine because you get whatever you want. That's why, training dataset must have been labeled in the CGAN. We add class information both the generator and the critic. It is added to extra channel for the discriminator and it is added to the noise vector for the generator. If you change the generator noise vector you can obtain different image for same category. But if you change the class you can get different image from the chosen category.
+So far, we looked at the unconditional GANs. There is a metaphor to explain the difference between conditional and unconditinal GAN. We can regard unconditional GANs as a gumball machine because you get outputs from a random class. On the other hand, we can deem conditional GAN as a vending machine because you get whatever you want. That's why, training dataset must have been labeled in the CGAN. We add class information both the generator and the critic. It is added to extra channel for the discriminator and it is added to the noise vector for the generator. If you change the generator noise vector you can obtain different image for same category. But if you change the class you can get different image from the chosen category.
 Below images show the outputs of the training.
 
 You can see the training results below.
