@@ -6,7 +6,7 @@ First of all, let's start with the installation process.
 
 ```bash
    git clone https://github.com/FidanVural/GAN.git
-   cd GAN 
+   cd GAN/ 
    sudo pip3 install -r requirements.txt
 ```
  
