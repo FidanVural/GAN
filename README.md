@@ -50,7 +50,7 @@ Target Images             |  Fake Images
 
 
 ## DCGAN (Deep Convolutional Generative Adversarial Networks)
-DCGAN is so similar to the GAN. Main difference between the GAN and the DCGAN is the use of convolutional blocks. You can explore [dcgan.py](https://github.com/FidanVural/GAN/blob/master/dcgan.py) and [dcgan_training.py](https://github.com/FidanVural/GAN/blob/master/dcgan_training.py) scritps. Due to the utilization of convolutional layers, training process is slower than the GAN but results surpass it. You can take a look at the results below (after 20 epochs of training). 
+DCGAN is so similar to the GAN. Main difference between the GAN and the DCGAN is the use of convolutional blocks. You can explore [dcgan.py](https://github.com/FidanVural/GAN/blob/master/dcgan.py) and [dcgan_training.py](https://github.com/FidanVural/GAN/blob/master/dcgan_training.py) scripts. Due to the utilization of convolutional layers, training process is slower than the GAN but results surpass it. You can take a look at the results below (after 20 epochs of training). 
 
 Target Images             |  Fake Images
 :------------------------:|:-------------------------:
