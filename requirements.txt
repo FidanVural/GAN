@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy 
+random
+matplotlib
+albumentations
+config 
+Pillow
+scikit-image
+tqdm
