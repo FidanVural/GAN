@@ -62,7 +62,7 @@ Binary Cross Entropy (BCE) loss can cause some problems when we train our models
 
 
 <p align="center"> 
-  <img width="550" height="120" src="https://github.com/FidanVural/GAN/assets/56233156/be595e6f-b2b0-4678-a820-250b8e8a798a">
+  <img width="550" height="120" src="https://github.com/FidanVural/GAN/assets/56233156/8e7a8cde-9032-4766-87fc-cd38d28bd7f9">
 </p>
 <p align="center"> 
   <img width="580" height="200" src="https://github.com/FidanVural/GAN/assets/56233156/b5716dd4-f94c-4f48-9433-171fabe0f927">
