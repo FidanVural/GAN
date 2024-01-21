@@ -98,7 +98,7 @@ Pix2pix is a general solution for image to image translation. Generally, if you 
     <em>Training Procedure [7]</em> 
 </p>
 
-In the paper, authors also say that L1 loss is preferred instead of L2 because L1 loss encourges less blurring. When it comes to the losses, they can decide two different losses -> adversarial loss and L1 loss. You can look at the losses in the below. If you look at the adversarial loss, you can see that noise (z) is given to the generator. However, noise was provided in the form of dropout instead of giving it as an input and you can see this in the code like that.  
+In the paper, authors also say that L1 loss is preferred instead of L2 because L1 loss encourges less blurring. When it comes to the losses, they can decide two different losses -> adversarial loss and L1 loss. You can look at the losses below. If you look at the adversarial loss, you can see that noise (z) is given to the generator. However, noise was provided in the form of dropout instead of being given it as an input and you can see this in the code.  
 
 <p align="center">   
   <img src="https://github.com/FidanVural/GAN/assets/56233156/223193ec-fe96-4246-b259-cda7cbe7d932">
@@ -113,6 +113,8 @@ In the paper, authors also say that L1 loss is preferred instead of L2 because L
 <p align="center"> 
     <em>Overall Loss [7]</em> 
 </p>  
+
+I chose image colorization as a task and performed pix2pix GAN. It was trained for 50 epochs and the outputs are shown below. If you examine the images, you can see that some of them have artifacts. I tweaked some hyperparameters and changed loss function to get rid of them but still some of them exist in some images. Additionally, you can find other hyperparameters such as batch size, image size and learning rate in [config.py](https://github.com/FidanVural/GAN/blob/master/PIX2PIX/config.py) file if you want to make further adjustments.  
 
 <p align="center">   
   <img src="https://github.com/FidanVural/GAN/assets/56233156/8d59b32f-2490-4360-beaa-0da796d71b29">
