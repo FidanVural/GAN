@@ -86,8 +86,6 @@ Target Images             |  Fake Images
 :------------------------:|:-------------------------:
 ![cgan_r](https://github.com/FidanVural/GAN/assets/56233156/2a33d5a1-a453-4db5-b4b9-1c91a51df717) | ![cgan_f](https://github.com/FidanVural/GAN/assets/56233156/921cde47-c998-4552-a1d4-a78d95306627)
 
-I'll update this page as I learn new things.
-
 ## PIX2PIX (Image-to-Image Translation with GAN)
 Pix2pix is a general solution for image to image translation. Generally, if you want to do image to image translation, you use different models and loss functions. To overcome this problem, pix2pix presents a general-purpose solution for many image to image tasks like image colorizing, reconstructing objects from edge maps and synthesizing photos from label maps. It also has a generator and discriminator. U-Net based architecture is used for the generator and PatchGAN is used for the discriminator. Pix2pix is a conditinal GANs and because of that the discriminator also takes y as an input. This training procedure can be seen below.
 
@@ -138,6 +136,8 @@ I chose image colorization as a task and performed pix2pix GAN. It was trained f
 </p>  
 
 If you want the run the pix2pix directory in your local, you have to create "data" and "models" directories. After that you can go https://www.kaggle.com/datasets/aayush9753/image-colorization-dataset link to download the training data that I used and copy it into the "data" directory. The "models" directory is to save your generator and discriminator models. You can test your model with the image of your choice using [random_image.py](https://github.com/FidanVural/GAN/blob/master/PIX2PIX/random_image.py) script.
+
+I'll update this page as I learn new things.
 
 ### RESOURCES
 
