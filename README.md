@@ -92,7 +92,7 @@ I'll update this page as I learn new things.
 Pix2pix is a general solution for image to image translation. Generally, if you want to do image to image translation, you use different models and loss functions. To overcome this problem, pix2pix presents a general-purpose solution for many image to image tasks like image colorizing, reconstructing objects from edge maps and synthesizing photos from label maps. It also has a generator and discriminator. U-Net based architecture is used for the generator and PatchGAN is used for the discriminator. Pix2pix is a conditinal GANs and because of that the generator also takes x as an input instead of just noise vector. This training procedure can be seen below.
 
 <p align="center">   
-  <img src="https://github.com/FidanVural/GAN/assets/56233156/68d0b5b4-2480-4efb-b30b-79d0dfb74843">
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/6ca0ba4e-2762-48e8-ac96-15f656302bd2">
 </p>  
 <p align="center"> 
     <em>Training Procedure</em> 
