@@ -89,16 +89,30 @@ Target Images             |  Fake Images
 I'll update this page as I learn new things.
 
 ## PIX2PIX (Image-to-Image Translation with GAN)
-Pix2pix is a general solution for image to image translation. Generally, if you want to do image to image translation, you use different models and loss functions. To overcome this problem, pix2pix presents a general-purpose solution for many image to image tasks like image colorizing, reconstructing objects from edge maps and synthesizing photos from label maps. It also has a generator and discriminator. U-Net based architecture is used for the generator and PatchGAN is used for the discriminator. Pix2pix is a conditinal GANs and because of that the generator also takes x as an input instead of just noise vector. This training procedure can be seen below.
+Pix2pix is a general solution for image to image translation. Generally, if you want to do image to image translation, you use different models and loss functions. To overcome this problem, pix2pix presents a general-purpose solution for many image to image tasks like image colorizing, reconstructing objects from edge maps and synthesizing photos from label maps. It also has a generator and discriminator. U-Net based architecture is used for the generator and PatchGAN is used for the discriminator. Pix2pix is a conditinal GANs and because of that the discriminator also takes y as an input. This training procedure can be seen below.
 
 <p align="center">   
   <img src="https://github.com/FidanVural/GAN/assets/56233156/6ca0ba4e-2762-48e8-ac96-15f656302bd2">
 </p>  
 <p align="center"> 
-    <em>Training Procedure</em> 
+    <em>Training Procedure [7]</em> 
 </p>
 
+In the paper, authors also say that L1 loss is preferred instead of L2 because L1 loss encourges less blurring. When it comes to the losses, they can decide two different losses -> adversarial loss and L1 loss. You can look at the losses in the below. If you look at the adversarial loss, you can see that noise (z) is given to the generator. However, noise was provided in the form of dropout instead of giving it as an input and you can see this in the code like that.  
 
+<p align="center">   
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/223193ec-fe96-4246-b259-cda7cbe7d932">
+</p>  
+<p align="center"> 
+    <em>Adversarial Loss [7]</em> 
+</p>  
+
+<p align="center">   
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/64455ea7-1f17-4f7e-a84f-fce6566c9aa9">
+</p>  
+<p align="center"> 
+    <em>Overall Loss [7]</em> 
+</p>  
 
 <p align="center">   
   <img src="https://github.com/FidanVural/GAN/assets/56233156/68d0b5b4-2480-4efb-b30b-79d0dfb74843">
