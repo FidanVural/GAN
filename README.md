@@ -137,7 +137,7 @@ I chose image colorization as a task and performed pix2pix GAN. It was trained f
     <em>Colorized Images</em> 
 </p>  
 
-If you want the run the pix2pix directory in your local, you have to create "data" and "model" directories. After that you can go .. link to download the training data and copy it into the "data" directory. The "model" directory is to save your generator and discriminator models.
+If you want the run the pix2pix directory in your local, you have to create "data" and "model" directories. After that you can go .. link to download the training data and copy it into the "data" directory. The "model" directory is to save your generator and discriminator models. You can test your model with the image of your choice using [random_image.py](https://github.com/FidanVural/GAN/blob/master/PIX2PIX/random_image.py) script.
 
 ### RESOURCES
 
