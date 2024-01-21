@@ -118,9 +118,15 @@ Pix2pix is a general solution for image to image translation. Generally, if you 
 ### RESOURCES
 
 [1] https://arxiv.org/pdf/1406.2661.pdf
+
 [2] https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans
+
 [3] https://jonathan-hui.medium.com/gan-whats-generative-adversarial-networks-and-its-application-f39ed278ef09
+
 [4] https://towardsdatascience.com/generative-adversarial-networks-explained-34472718707a
+
 [5] https://www.oreilly.com/library/view/generative-deep-learning/9781492041931/ch04.html
+
 [6] https://jonathan-hui.medium.com/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490
+
 [7] https://arxiv.org/pdf/1611.07004.pdf
