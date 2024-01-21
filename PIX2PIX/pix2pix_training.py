@@ -62,10 +62,10 @@ def main():
         load_checkpoint(config.CHECKPOINT_DISC, disc, opt_disc, config.LEARNING_RATE_DISC)
         load_checkpoint(config.CHECKPOINT_GEN, gen, opt_gen, config.LEARNING_RATE_GEN)
 
-    train_input_path = "./data_3/train_g"
-    train_output_path = "./data_3/train_c"
-    val_input_path = "./data_3/test_g"
-    val_output_path = "./data_3/test_c"
+    train_input_path = "./data/train_black"
+    train_output_path = "./data/train_color"
+    val_input_path = "./data/test_black"
+    val_output_path = "./data/test_color"
 
     train_input_images = [(train_input_path + "/" + i) for i in os.listdir(train_input_path)]
     train_output_images = [(train_output_path + "/" + i) for i in os.listdir(train_output_path)]
