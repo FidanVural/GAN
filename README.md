@@ -115,6 +115,13 @@ In the paper, authors also say that L1 loss is preferred instead of L2 because L
 </p>  
 
 <p align="center">   
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/8d59b32f-2490-4360-beaa-0da796d71b29">
+</p>  
+<p align="center"> 
+    <em>Input Images</em> 
+</p>  
+
+<p align="center">   
   <img src="https://github.com/FidanVural/GAN/assets/56233156/68d0b5b4-2480-4efb-b30b-79d0dfb74843">
 </p>  
 <p align="center"> 
