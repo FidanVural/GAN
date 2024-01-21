@@ -88,6 +88,24 @@ Target Images             |  Fake Images
 
 I'll update this page as I learn new things.
 
+## PIX2PIX
+
+
+<p align="center">   
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/68d0b5b4-2480-4efb-b30b-79d0dfb74843">
+</p>  
+<p align="center"> 
+    <em>Real Images</em> 
+</p>  
+
+<p align="center">   
+  <img src="https://github.com/FidanVural/GAN/assets/56233156/fd1b9a9f-d233-4589-92ec-76df73471b4e">
+</p>  
+<p align="center"> 
+    <em>Colorized Images</em> 
+</p>  
+
+
 ### RESOURCES
 
 - https://arxiv.org/pdf/1406.2661.pdf
